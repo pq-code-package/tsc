@@ -11,7 +11,7 @@ Please include:
 
 * GitHub repo to transfer:
 * Project to be added to: 
-* Teams with which access: (examples [on GitHub team list](https://github.com/orgs/hyperledger/teams))
+* Teams with which access: (examples [on GitHub team list](https://github.com/orgs/pq-code-package/teams))
 	* Team name:
 	* Role:
 		- Read

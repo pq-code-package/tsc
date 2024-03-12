@@ -12,7 +12,7 @@ assignees: ryjones, planetf1, dstebila
 
 One of:
 
-* [Team to be added to](https://github.com/orgs/hyperledger/teams/0-hyperledger-contributors/teams):
+* [Team to be added to](https://github.com/orgs/pq-code-package/teams):
 * Role:
 	- Read
 	- Triage
