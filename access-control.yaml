@@ -1,116 +1,44 @@
 organization: pq-code-package
 repositories:
   - name: .github
+    teams:
+      pqcp-hackers: maintain
+      pqcp-contributors: maintain
   - name: documentation
     teams:
-      mlkem-c-generic-maintainers: read
-      pqcp-contributors: read
-      pqcp-embedded-admin: read
-      pqcp-embedded-maintainers: read
-      pqcp-embedded: read
-      pqcp-generic-admin: read
-      pqcp-generic-maintainers: read
-      pqcp-generic: read
       pqcp-hackers: admin
-      pqcp-libcrux-admin: read
-      pqcp-libcrux-maintainers: read
-      pqcp-libcrux: read
-      pqcp-libjade-admin: read
-      pqcp-libjade-maintainers: read
-      pqcp-libjade: read
   - name: mlkem-c-embedded
     teams:
       mlkem-c-generic-maintainers: maintain
-      pqcp-contributors: read
       pqcp-embedded-admin: admin
       pqcp-embedded-maintainers: maintain
-      pqcp-embedded: read
-      pqcp-generic-admin: read
-      pqcp-generic-maintainers: read
-      pqcp-generic: read
-      pqcp-hackers: read
-      pqcp-libcrux-admin: read
-      pqcp-libcrux-maintainers: read
-      pqcp-libcrux: read
-      pqcp-libjade-admin: read
-      pqcp-libjade-maintainers: read
-      pqcp-libjade: read
   - name: mlkem-c-generic
     teams:
-      mlkem-c-generic-maintainers: read
-      pqcp-contributors: read
-      pqcp-embedded-admin: read
-      pqcp-embedded-maintainers: read
-      pqcp-embedded: read
-      pqcp-generic-admin: read
-      pqcp-generic-maintainers: read
-      pqcp-generic: read
-      pqcp-hackers: read
-      pqcp-libcrux-admin: read
-      pqcp-libcrux-maintainers: read
-      pqcp-libcrux: read
-      pqcp-libjade-admin: read
-      pqcp-libjade-maintainers: read
-      pqcp-libjade: read
+      mlkem-c-generic-maintainers: maintain
+      pqcp-embedded-admin: admin
+      pqcp-embedded-maintainers: maintain
   - name: mlkem-libjade
     teams:
-      mlkem-c-generic-maintainers: read
-      pqcp-contributors: read
-      pqcp-embedded-admin: read
-      pqcp-embedded-maintainers: read
-      pqcp-embedded: read
-      pqcp-generic-admin: read
-      pqcp-generic-maintainers: read
-      pqcp-generic: read
       pqcp-hackers: maintain
-      pqcp-libcrux-admin: read
-      pqcp-libcrux-maintainers: read
-      pqcp-libcrux: read
-      pqcp-libjade-admin: maintain
+      pqcp-libjade-admin: admin
       pqcp-libjade-maintainers: maintain
       pqcp-libjade: maintain
   - name: mlkem-rust-libcrux
     teams:
-      mlkem-c-generic-maintainers: read
-      pqcp-contributors: read
-      pqcp-embedded-admin: read
-      pqcp-embedded-maintainers: read
-      pqcp-embedded: read
-      pqcp-generic-admin: read
-      pqcp-generic-maintainers: read
-      pqcp-generic: read
-      pqcp-hackers: read
       pqcp-libcrux-admin: admin
       pqcp-libcrux-maintainers: maintain
-      pqcp-libcrux: read
-      pqcp-libjade-admin: read
-      pqcp-libjade-maintainers: read
-      pqcp-libjade: read
   - name: o-documentation
     teams:
       pqcp-hackers: admin
   - name: pq-code-package-hackathon
     teams:
-      mlkem-c-generic-maintainers: read
-      pqcp-contributors: read
-      pqcp-embedded-admin: read
-      pqcp-embedded-maintainers: read
-      pqcp-embedded: read
-      pqcp-generic-admin: read
-      pqcp-generic-maintainers: read
-      pqcp-generic: read
       pqcp-hackers: maintain
-      pqcp-libcrux-admin: read
-      pqcp-libcrux-maintainers: read
-      pqcp-libcrux: read
-      pqcp-libjade-admin: read
-      pqcp-libjade-maintainers: read
-      pqcp-libjade: read
   - name: template-code
     teams:
       pqcp-hackers: maintain
   - name: tsc
     teams:
+      pqcp-contributors: maintain
       pqcp-hackers: maintain
 teams:
   - name: mlkem-c-generic-maintainers
@@ -120,10 +48,11 @@ teams:
       - cryptojedi
   - name: pqcp-contributors
     maintainers:
-      - dstebila
       - mkannwischer
       - planetf1
     members:
+      - dstebila
+      - rpls
       - MQuaresma
       - ajbozarth
       - cryptojedi
@@ -131,8 +60,6 @@ teams:
       - jschanck
       - karthikbhargavan
       - mbbarbosa
-      - mkannwischer
-      - planetf1
       - potsrevennil
       - tfaoliveira
   - name: pqcp-embedded-admin
@@ -144,21 +71,23 @@ teams:
       - mkannwischer
       - planetf1
     members:
-      - mkannwischer
-      - planetf1
+      - rpls
+      - potsrevennil
   - name: pqcp-embedded
     maintainers:
       - mkannwischer
       - planetf1
     members:
       - cryptojedi
+      - rpls
+      - potsrevennil
       - jschanck
-      - mkannwischer
-      - planetf1
   - name: pqcp-generic-admin
     maintainers:
+      - mkannwischer
       - planetf1
     members:
+      - cryptojedi
       - jschanck
   - name: pqcp-generic-maintainers
     maintainers:
@@ -166,14 +95,12 @@ teams:
     members:
       - cryptojedi
       - jschanck
-      - planetf1
   - name: pqcp-generic
     maintainers:
       - planetf1
-    members:
-      - cryptojedi
       - jschanck
-      - planetf1
+      - cryptojedi
+    members:
   - name: pqcp-hackers
     maintainers:
       - dstebila
@@ -187,16 +114,12 @@ teams:
       - franziskuskiefer
       - planetf1
     members:
-      - franziskuskiefer
-      - planetf1
   - name: pqcp-libcrux
     maintainers:
       - franziskuskiefer
       - planetf1
     members:
-      - franziskuskiefer
       - karthikbhargavan
-      - planetf1
   - name: pqcp-libjade-admin
     maintainers:
       - planetf1
@@ -208,7 +131,6 @@ teams:
     members:
       - cryptojedi
       - mbbarbosa
-      - planetf1
       - tfaoliveira
   - name: pqcp-libjade
     maintainers:
@@ -217,6 +139,4 @@ teams:
     members:
       - MQuaresma
       - cryptojedi
-      - mbbarbosa
-      - planetf1
       - tfaoliveira
