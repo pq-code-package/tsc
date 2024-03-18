@@ -2,56 +2,56 @@ organization: pq-code-package
 repositories:
   - name: .github
     teams:
-      pqcp-hackers: maintain
-      pqcp-contributors: maintain
+      pqcp-docs: read
+      pqcp-docs-maintainers: maintain
+      pqcp-docs-admin: admin
   - name: documentation
     teams:
-      pqcp-hackers: admin
+      pqcp-docs: read
+      pqcp-docs-maintainers: maintain
+      pqcp-docs-admin: admin
   - name: mlkem-c-embedded
     teams:
-      mlkem-c-generic-maintainers: maintain
+      pqcp-embedded: read
       pqcp-embedded-admin: admin
       pqcp-embedded-maintainers: maintain
   - name: mlkem-c-generic
     teams:
-      mlkem-c-generic-maintainers: maintain
-      pqcp-embedded-admin: admin
-      pqcp-embedded-maintainers: maintain
+      pqcp-generic-maintainers: maintain
+      pqcp-generic-admin: admin
+      pqcp-generic: read
   - name: mlkem-libjade
     teams:
-      pqcp-hackers: maintain
       pqcp-libjade-admin: admin
       pqcp-libjade-maintainers: maintain
-      pqcp-libjade: maintain
+      pqcp-libjade: read
   - name: mlkem-rust-libcrux
     teams:
+      pqcp-libcrux: read
       pqcp-libcrux-admin: admin
       pqcp-libcrux-maintainers: maintain
-  - name: o-documentation
-    teams:
-      pqcp-hackers: admin
   - name: pq-code-package-hackathon
     teams:
-      pqcp-hackers: maintain
+      pqcp-docs: read
+      pqcp-docs-maintainers: maintain
+      pqcp-docs-admin: admin
   - name: template-code
     teams:
-      pqcp-hackers: maintain
+      pqcp-docs: read
+      pqcp-docs-maintainers: maintain
+      pqcp-docs-admin: admin
   - name: tsc
     teams:
-      pqcp-contributors: maintain
-      pqcp-hackers: maintain
+      pqcp-tsc: read
+      pqcp-tsc-maintainers: maintain
+      pqcp-tsc-admin: admin
 teams:
-  - name: mlkem-c-generic-maintainers
-    maintainers:
-      - jschanck
-    members:
-      - cryptojedi
   - name: pqcp-contributors
     maintainers:
       - mkannwischer
       - planetf1
-    members:
       - dstebila
+    members:
       - rpls
       - MQuaresma
       - ajbozarth
@@ -62,6 +62,7 @@ teams:
       - mbbarbosa
       - potsrevennil
       - tfaoliveira
+      - ashman-p
   - name: pqcp-embedded-admin
     maintainers:
       - mkannwischer
@@ -84,27 +85,23 @@ teams:
       - jschanck
   - name: pqcp-generic-admin
     maintainers:
-      - mkannwischer
+      - jschanck
       - planetf1
     members:
       - cryptojedi
-      - jschanck
   - name: pqcp-generic-maintainers
     maintainers:
       - planetf1
+      - jschanck
     members:
       - cryptojedi
-      - jschanck
   - name: pqcp-generic
     maintainers:
       - planetf1
       - jschanck
-      - cryptojedi
     members:
-  - name: pqcp-hackers
-    maintainers:
-      - dstebila
-      - planetf1
+      - cryptojedi
+      - ashman-p
   - name: pqcp-libcrux-admin
     maintainers:
       - franziskuskiefer
@@ -140,3 +137,40 @@ teams:
       - MQuaresma
       - cryptojedi
       - tfaoliveira
+  - name: pqcp-docs
+    maintainers:
+      - planetf1
+      - dstebila
+  - name: pqcp-docs-maintainers
+    maintainers:
+      - planetf1
+      - dstebila
+  - name: pqcp-docs-admin
+    maintainers:
+      - planetf1
+      - dstebila
+  - name: pqcp-tsc
+    maintainers:
+      - dstebila
+      - planetf1
+    members:
+      - mkannwischer
+      - rpls
+      - MQuaresma
+      - ajbozarth
+      - cryptojedi
+      - franziskuskiefer
+      - jschanck
+      - karthikbhargavan
+      - mbbarbosa
+      - potsrevennil
+      - tfaoliveira
+      - ashman-p
+  - name: pqcp-tsc-maintainers
+    maintainers:
+      - dstebila
+      - planetf1
+  - name: pqcp-tsc-admin
+    maintainers:
+      - dstebila
+      - planetf1
