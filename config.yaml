@@ -1,0 +1,188 @@
+organization: pq-code-package
+repositories:
+  - name: .github
+    teams:
+      pqcp-docs: read
+      pqcp-docs-maintainers: maintain
+      pqcp-docs-admin: admin
+  - name: documentation
+    teams:
+      pqcp-docs: read
+      pqcp-docs-maintainers: maintain
+      pqcp-docs-admin: admin
+  - name: mlkem-c-aarch64
+    teams:
+      pqcp-embedded: read
+      pqcp-embedded-admin: admin
+      pqcp-embedded-maintainers: maintain
+      pqcp-embedded-maintainers-aarch64: maintain
+  - name: mlkem-c-embedded
+    teams:
+      pqcp-embedded: read
+      pqcp-embedded-admin: admin
+      pqcp-embedded-maintainers: maintain
+  - name: mlkem-c-generic
+    teams:
+      pqcp-generic-maintainers: maintain
+      pqcp-generic-admin: admin
+      pqcp-generic: read
+  - name: mlkem-libjade
+    teams:
+      pqcp-libjade-admin: admin
+      pqcp-libjade-maintainers: maintain
+      pqcp-libjade: read
+  - name: mlkem-rust-libcrux
+    teams:
+      pqcp-libcrux: read
+      pqcp-libcrux-admin: admin
+      pqcp-libcrux-maintainers: maintain
+  - name: pq-code-package-hackathon
+    teams:
+      pqcp-docs: read
+      pqcp-docs-maintainers: maintain
+      pqcp-docs-admin: admin
+  - name: template-code
+    teams:
+      pqcp-docs: read
+      pqcp-docs-maintainers: maintain
+      pqcp-docs-admin: admin
+  - name: tsc
+    teams:
+      pqcp-tsc: read
+      pqcp-tsc-maintainers: maintain
+      pqcp-tsc-admin: admin
+teams:
+  - name: pqcp-contributors
+    maintainers:
+      - mkannwischer
+      - planetf1
+      - dstebila
+    members:
+      - hartm
+      - rpls
+      - MQuaresma
+      - ajbozarth
+      - cryptojedi
+      - franziskuskiefer
+      - jschanck
+      - karthikbhargavan
+      - mbbarbosa
+      - potsrevennil
+      - tfaoliveira
+      - ashman-p
+  - name: pqcp-embedded-admin
+    maintainers:
+      - mkannwischer
+      - planetf1
+  - name: pqcp-embedded-maintainers-aarch64
+    maintainers:
+      - mkannwischer
+    members:
+      - cothan
+  - name: pqcp-embedded-maintainers
+    maintainers:
+      - mkannwischer
+      - planetf1
+    members:
+      - rpls
+      - potsrevennil
+  - name: pqcp-embedded
+    maintainers:
+      - mkannwischer
+      - planetf1
+    members:
+      - cryptojedi
+      - rpls
+      - potsrevennil
+      - jschanck
+  - name: pqcp-generic-admin
+    maintainers:
+      - jschanck
+      - planetf1
+    members:
+      - cryptojedi
+  - name: pqcp-generic-maintainers
+    maintainers:
+      - planetf1
+      - jschanck
+    members:
+      - cryptojedi
+  - name: pqcp-generic
+    maintainers:
+      - planetf1
+      - jschanck
+    members:
+      - cryptojedi
+      - ashman-p
+  - name: pqcp-libcrux-admin
+    maintainers:
+      - franziskuskiefer
+      - planetf1
+  - name: pqcp-libcrux-maintainers
+    maintainers:
+      - franziskuskiefer
+      - planetf1
+    members:
+  - name: pqcp-libcrux
+    maintainers:
+      - franziskuskiefer
+      - planetf1
+    members:
+      - karthikbhargavan
+  - name: pqcp-libjade-admin
+    maintainers:
+      - planetf1
+    members:
+      - cryptojedi
+  - name: pqcp-libjade-maintainers
+    maintainers:
+      - planetf1
+    members:
+      - cryptojedi
+      - mbbarbosa
+      - tfaoliveira
+  - name: pqcp-libjade
+    maintainers:
+      - mbbarbosa
+      - planetf1
+    members:
+      - MQuaresma
+      - cryptojedi
+      - tfaoliveira
+  - name: pqcp-docs
+    maintainers:
+      - planetf1
+      - dstebila
+  - name: pqcp-docs-maintainers
+    maintainers:
+      - planetf1
+      - dstebila
+  - name: pqcp-docs-admin
+    maintainers:
+      - planetf1
+      - dstebila
+  - name: pqcp-tsc
+    maintainers:
+      - dstebila
+      - planetf1
+    members:
+      - mkannwischer
+      - rpls
+      - MQuaresma
+      - ajbozarth
+      - cryptojedi
+      - franziskuskiefer
+      - jschanck
+      - karthikbhargavan
+      - mbbarbosa
+      - potsrevennil
+      - tfaoliveira
+      - ashman-p
+  - name: pqcp-tsc-maintainers
+    maintainers:
+      - dstebila
+      - planetf1
+  - name: pqcp-tsc-admin
+    maintainers:
+      - dstebila
+      - planetf1
