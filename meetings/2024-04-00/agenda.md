@@ -2,7 +2,7 @@
 
 
 * Welcome
-* Adoption of [TSC Charter](charter/charter-2024-01-29.pdf)
+* Reminder of [TSC Charter](charter/charter-2024-01-29.pdf)
 * Election of a TSC chair
 * Establishing a voting procedure
 * Agree TSC membership
