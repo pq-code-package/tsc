@@ -16,7 +16,20 @@ The role and responsibilities of the TSC are described in the [Technical Charter
 
 ## Members
 
-The initial membership for the TSC is still in the process of being finalized.  In the interim, please contact Douglas Stebila for more information.
+The initial membership for the TSC is still in the process of being finalized.  
+
+Please comment on [issue #1] if you are interested in participating.
+
+## Meetings
+
+* [Meeting agenda / minutes ](meetings/index.md)
+
+## Project Documentation
+
+The [documentation repo](https://github.com/pq-code-package/documentation) is used to create https://docs.pqcodepackage.org . The intent is to start 
+creating content in this repo to describe the project.
+
+Until then go directly to the [list of repos](https://github.com/pq-code-package) to review current implementations and create or follow issues and PRs.
 
 ## Communication Channels
 
