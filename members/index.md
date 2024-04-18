@@ -6,6 +6,7 @@ The current TSC members are:
 * [Nigel Jones](https://github.com/planetf1)
 * [Matthias J. Kannwischer](https://github.com/mkannwischer)
 * [Franziskus Kiefer](https://github.com/franziskuskiefer)
+* [John Schanck](https://github.com/jschanck)
 * [Douglas Stebila](https://github.com/dstebila)
 
 
