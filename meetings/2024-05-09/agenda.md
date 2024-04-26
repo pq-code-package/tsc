@@ -1,5 +1,4 @@
-# 2024-04-00 : Initial TSC Agenda
-
+# 2024-05-09 : Initial TSC Agenda
 
 * Welcome
 * Reminder of [TSC Charter](charter/charter-2024-01-29.pdf)

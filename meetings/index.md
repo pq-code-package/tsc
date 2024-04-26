@@ -2,5 +2,5 @@
 
 A regular meeting cadence has not yet been established.
 
-* 2024-04-00 : [agenda](2024-04-00/agenda.md) / minutes 
-  - NOTE: This is the kick-off meeting, Date TBD
+* 2024-05-09 : [agenda](2024-05-09/agenda.md) / minutes (kick-off meeting)
+  
