@@ -79,6 +79,7 @@ teams:
       - mkannwischer
     members:
       - cothan
+      - hanno-becker
   - name: pqcp-embedded-maintainers
     maintainers:
       - mkannwischer
@@ -166,18 +167,19 @@ teams:
       - dstebila
       - planetf1
     members:
-      - mkannwischer
-      - rpls
       - MQuaresma
       - ajbozarth
+      - ashman-p
       - cryptojedi
       - franziskuskiefer
+      - hanno-becker
       - jschanck
       - karthikbhargavan
       - mbbarbosa
+      - mkannwischer
       - potsrevennil
+      - rpls
       - tfaoliveira
-      - ashman-p
   - name: pqcp-tsc-maintainers
     maintainers:
       - dstebila
