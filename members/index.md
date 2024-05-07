@@ -3,6 +3,7 @@
 The current TSC members are:
 
 * [Manuel Barbosa](https://github.com/mbbarbosa)
+* [Hanno Becker](https://github.com/hanno-becker)
 * [Nigel Jones](https://github.com/planetf1)
 * [Matthias J. Kannwischer](https://github.com/mkannwischer)
 * [Franziskus Kiefer](https://github.com/franziskuskiefer)
