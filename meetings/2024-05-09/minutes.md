@@ -72,30 +72,42 @@ Some consensus of a monthly frequency longer term, but we agreed to have the nex
 
 #### Common APIs
 
-Agreed useful to have common APIs between implementations, especially where they are in the same language (and similar where it makes sense, if not).
+See [
+](https://github.com/pq-code-package/tsc/issues/4)
 
-Tiago noted that sometimes randomization needs to come from outside, so needed an API change.
+Agreed useful to have common APIs between implementations, especially where they are in the same language (and similar where it makes sense, if not).
 
 We should ask users about APIs (including John in Mozilla where it's used in [NSS](https://wiki.mozilla.org/NSS)). [Open Quantum Safe](https://openquantumsafe.org/) is also a consumer.
 
-Agreed a good starting point would be for 1 or 2 projects to present on their APIs and design decisions for the rest of the group.
+Tiago noted that sometimes randomization needs to come from outside, so needed an API change for NSS.
 
-Hanno pointed out a consistent internal structure is useful too.
+Hanno pointed out a consistent internal structure is useful too ie common functions in C implementations, as is common packaging. Doug mentioned it could be useful for a consumer to pull in several different implementations (ie generic, x86 etc).
+
+Agreed a good starting point would be for 1 or 2 projects to present on their APIs and design decisions for the rest of the group. We could start with Tiago & then Matthias.
 
 #### Lifecycle / Projects / Assurance
 
 How do we describe assurance levels?
 
-Agreed each project could explain what their interpretation is & share. We can then derive a common definition. Nigel pointed out we need to be able to explain to a consumer what to expect.
+Franziskus mentioned this should be a high priority as it's on our charter.
+
+Can we have a single definition? Noted aspects can vary (ie threading model, whether algo is constant-time checked...). Agreed each project could explain what their interpretation is & share. We can then derive a common definition. Nigel pointed out we need to be able to explain to a consumer what to expect - how do I choose which implementation to use?
 
 What do we expect from a reference implementation? Is this production ready? Agreed important to have reference implementation.
 
 What is production code? What are it's characteristics? Nigel noted that the PQCA has a [project lifecycle proposal](https://docs.google.com/document/d/1NV-0vNgXWdc81oqT0jv0C-9Funb8dySS06u90ghF-X4/edit), and some discussion is [delegated to the open quantum safe team](https://github.com/open-quantum-safe/tsc/issues/1) - so probably makes sense to consolidate the discussion there.
 
+Security vulnerability reporting also important.
+
+Nigel suggested that Production could mean getting to a point where an org could take it & incorporate into their systems with some level of confidence, or perhaps goes into a distribution like Fedora.
+
 #### Test vectors
 
-Norman would like to propose a [common testing harness](https://github.com/pq-code-package/tsc/issues/29). Common API would help. We could use the [NIST acvts test server](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/how-to-access-acvts). Need to supply credentials including cert. Ry will help out with the cert.
+Norman would like to propose a [common testing harness](https://github.com/pq-code-package/tsc/issues/29) within PQCP. Common API would help. We could use the [NIST acvts test server](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/how-to-access-acvts). Need to supply credentials including cert. Ry will help out with the cert.
 
+#### Hackathons
+
+It may make sense for future hackathons to be more targetted?
 ## Review PQCA activities
 
 Nigel briefly mentioned the following calls for workgroups at the PQCA:
@@ -106,9 +118,9 @@ Nigel briefly mentioned the following calls for workgroups at the PQCA:
 
 ## Review subprojects
 
-Matthias mentioned they now have stack optimized code. Not very fast yet. Working through some cleanup including cc0 licensing. Currently no issues to discuss at tsc. For aarch64 have defined what to achieve - Hanno is new maintainer for this
+Matthias mentioned they now have stack optimized code. Not very fast yet. Working through some cleanup including cc0 licensing. Currently no issues to discuss at tsc. For aarch64 have defined what to achieve - Hanno is new maintainer for this.
 
-Nigel briefly mentioned our initial docs site at https://docs.pqcodepackage.org
+Nigel briefly mentioned our initial docs site at https://docs.pqcodepackage.org .
 
 We ran out of time to do justice to this discussion. Continue in next session.
 
@@ -124,8 +136,8 @@ Action items
 
 * [ ] Nigel to share links on project lifecycle discussions
 * [ ] Nigel to contact John Schanck about API needs
-* [ ] Matthias to Present API design/approach for embedded/arch64
-* [ ] Matthias - what does high assurance mean fir the embedded/arch64 subproject
+* [ ] Tiago, Matthias to Present API design/approach for embedded/arch64 (see [Issue 4](https://github.com/pq-code-package/tsc/issues/29))
+* [ ] All - what does high assurance mean for the embedded/arch64 subproject
 * [ ] Naomi to arrange TSC chair vote
 * [ ] Naomi to schedule next meeting / send out invites
 
@@ -141,12 +153,12 @@ Action items
 
 ### TSC voting members
 
-* [x] [Manuel Barbosa](https://github.com/mbbarbosa), Cryspen
+* [x] [Manuel Barbosa](https://github.com/mbbarbosa), University of Porto
 * [x] [Hanno Becker](https://github.com/hanno-becker), AWS
 * [x] [Nigel Jones](https://github.com/planetf1), IBM
 * [x] [Matthias J. Kannwischer](https://github.com/mkannwischer), CHelpis Quantum Tech
-* [x] [Franziskus Kiefer](https://github.com/franziskuskiefer), Sandbox AQ
-* [x] [Tiago Oliveira](https://github.com/tfaoliveira), Nova IMS
+* [x] [Franziskus Kiefer](https://github.com/franziskuskiefer), Cryspen
+* [x] [Tiago Oliveira](https://github.com/tfaoliveira), Sandbox AQ
 * [ ] [John Schanck](https://github.com/jschanck), Mozilla
 * [x] [Douglas Stebila](https://github.com/dstebila), University of Waterloo
 
@@ -156,4 +168,5 @@ Action items
 * Norman Ashley, Cisco
 * Naomi Washington, Linux Foundation
 * Ry Jones, Linux Foundation
-* ???, Nvidia _Apologies: details to be corrected from recording_
+* Yarkin Doroz, Worcester Polytechnic Institute
+* Duc Tri Nguyen, Sandbox AQ
