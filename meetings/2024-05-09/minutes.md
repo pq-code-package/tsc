@@ -1,0 +1,158 @@
+---
+layout: default
+title: 2024-05-09 TSC Meeting Record
+parent: Meeting Minutes
+grand_parent: PQCP TSC
+nav_exclude: true
+---
+
+# 2024-05-09 TSC Meeting Minutes
+
+## Agenda
+
+* Welcome
+* Reminder of [TSC Charter](charter/charter-2024-01-29.pdf)
+* Agree TSC membership
+* Establishing a voting procedure
+* Election of a TSC chair
+* Identify a representative from the PQCP TSC to the PQCA Technical Advisory Committee
+* Agree meeting frequency and appropriate days/times
+* Discuss & identify initial priorities for the TSC
+* Review relevant PQCA activities
+* Review status of sub projects
+  
+  * mlkem-c-generic
+  * mlkem-c-embedded
+  * mlkem-c-aarch64
+  * mkkem-libjade
+  * mlkem-rust-libcrux
+  * test vectors?
+  * documentation
+
+* Any other business
+
+## Announcements
+
+## Presentation
+
+None
+
+## Decision
+
+* [x] Initial list of TSC voting members confirmed
+
+## Discussion
+
+### TSC Charter
+
+Key elements from charter were highlighted - we agreed this was accurate:
+
+_PQ Code Package Project, which will build high-assurance production-ready software implementations of forthcoming post-quantum cryptography standards, starting with the ML-KEM algorithm_
+
+Alex noted the charter stats a CONTRIBUTING.md file should be present in each repo. We don't have this. (Action: Nigel to raise issue/fix)
+
+### TSC _Voting_ Membership
+
+It was noted by Naomi this should be referred to as Voting members. We have an open community to which everyone is invited. Here we are only voting on those elegible to vote in future TSC discussions.
+
+Discussed composition of TSC - typically starts as maintainer from each of the contributing subjects. Each member proposed in the initial list explained their role. A vote was taken which agreed with the initial voting members of the TSC. These voting members are listed in the attendance section below
+
+### Voting Procedure / Election of a TSC Chair / PQCA TAC Rep
+
+We agreed that an offline vote was the best way to elect a TSC Chair. Naomi will arrange a vote via github. Ry noted candidates should self-nominate.
+
+Naomi also pointed out that the TSC Chair will be the PQCA TAC Rep.
+
+### Meeting frequency/times
+
+Some consensus of a monthly frequency longer term, but we agreed to have the next meeting in 2 weeks time as we're getting started. The current time (Thu 1300 UTC) seems ok. Naomi will send out a 1-off invite, and we'll review at the next TSC meeting.
+
+### Discuss initial priorities
+
+
+#### Common APIs
+
+Agreed useful to have common APIs between implementations, especially where they are in the same language (and similar where it makes sense, if not).
+
+Tiago noted that sometimes randomization needs to come from outside, so needed an API change.
+
+We should ask users about APIs (including John in Mozilla). Open Quantum Safe is also a consumer.
+
+Agreed a good starting point would be for 1 or 2 projects to present on their APIs and design decisions for the rest of the group.
+
+Hanno pointed out a consistent internal structure is useful too.
+
+#### Lifecycle / Projects / Assurance
+
+How do we describe assurance levels?
+
+Agreed each project could explain what their interpretation is & share. We can then derive a common definition. Nigel pointed out we need to be able to explain to a consumer what to expect.
+
+What do we expect from a reference implementation? Is this production ready? Agreed important to have reference implementation.
+
+What is production code? What are it's characteristics? Nigel noted that the PQCA has a project lifecycle proposal, and some discussion is delegated to the open quantum safe team - so probably makes sense to consolidate the discussion there.
+
+#### Test vectors
+
+Norman would like to propose a common testing harness. Common API would help. We could use the NIST test server. Need to supply credentials including cert. Ry will help out with the cert.
+
+## Review PQCA activities
+
+Nigel briefly mentioned the following calls for workgroups at the PQCA:
+
+* Security and Governance
+* CBOMs and SBOMs
+* Algorithms
+
+## Review subprojects
+
+Matthias mentioned they now have stack optimized code. Not very fast yet. Working through some cleanup including cc0 licensing. Currently no issues to discuss at tsc. For aarch64 have defined what to achieve - Hanno is new maintainer for this
+
+Nigel briefly mentioned our initial docs site at https://docs.pqcodepackage.org
+
+We ran out of time to do justice to this discussion. Continue in next session.
+
+## Action items
+
+Action items
+
+### Done (from previous minutes)
+
+### Old
+
+### New
+
+* [ ] Nigel to share links on project lifecycle discussions
+* [ ] Matthias to Present API design/approach for embedded/arch64
+* [ ] Matthias - what does high assurance mean fir the embedded/arch64 subproject
+* [ ] Naomi to arrange TSC chair vote
+* [ ] Naomi to schedule next meeting / send out invites
+
+## Recordings
+
+* [Recordings are available on your Open Profile page](https://openprofile.dev/my-meetings) under Past Meetings
+
+## Upcoming TAC meetings
+
+[Please check the calendar](https://pqca.org/calendar/)
+
+## Attended by
+
+### TSC voting members
+
+* [x] Manuel Barbosa, Cryspen
+* [x] Hanno Becker, AWS
+* [x] Nigel Jones, IBM
+* [x] Matthias J. Kannwischer, CHelpis Quantum Tech
+* [x] Franziskus Kiefer, Sandbox AQ
+* [x] Tiago Oliveira, Nova IMS
+* [ ] John Schanck, Mozilla
+* [x] Douglas Stebila, University of Waterloo
+
+### Additional attendees
+
+* Alex Bozarth, IBM
+* Norman Ashley, Cisco
+* Naomi Washington, Linux Foundation
+* Ry Jones, Linux Foundation
+* ???, Nvidia _Apologies: details to be corrected from recording_
