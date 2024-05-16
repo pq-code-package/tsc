@@ -169,4 +169,4 @@ Action items
 * Naomi Washington, Linux Foundation
 * Ry Jones, Linux Foundation
 * Yarkin Doroz, Worcester Polytechnic Institute
-* Duc Tri Nguyen, Sandbox AQ
+* Duc Tri Nguyen, Cryptography Engineering Research Group @ GMU
