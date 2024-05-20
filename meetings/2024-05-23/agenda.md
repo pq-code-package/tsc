@@ -3,12 +3,13 @@
 * Welcome
 * Approval of [2024-05-09 minutes](https://github.com/pq-code-package/tsc/pull/53)
 * Update on [TSC chair vote](https://github.com/pq-code-package/tsc/issues/52)
-* [AWS ECS](https://github.com/pq-code-package/mlkem-c-aarch64/issues/34) / [Github arm runners](https://github.com/pq-code-package/tsc/issues/55)
+* Funding for [AWS ECS](https://github.com/pq-code-package/mlkem-c-aarch64/issues/34) / [Github arm runners](https://github.com/pq-code-package/tsc/issues/55)
 * Security - PQCA workgroup / SECURITY.md & lists / [Github reporting](https://github.com/PQCA/wg-security/issues/2)
 * Updates and observations from related communities:
   * [PQCA](https://github.com/PQCA)
   * [Open Quantum Safe](https://github.com/open-quantum-safe)
 * Discussion - [What does 'assured' mean?](https://github.com/pq-code-package/tsc/issues/3)
+* [Hackathons](https://github.com/pq-code-package/tsc/issues/31)
 * Review status of sub projects:
   * [mlkem-c-generic](https://github.com/pq-code-package/mlkem-c-generic)
   * [mlkem-c-embedded](https://github.com/pq-code-package/mlkem-c-embedded)
