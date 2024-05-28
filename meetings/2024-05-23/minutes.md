@@ -10,7 +10,7 @@ nav_exclude: true
 
 ## Agenda
 
- Welcome
+* Welcome
 * Approval of [2024-05-09 minutes](https://github.com/pq-code-package/tsc/pull/53)
 * Update on [TSC chair vote](https://github.com/pq-code-package/tsc/issues/52)
 * Funding for [AWS ECS](https://github.com/pq-code-package/mlkem-c-aarch64/issues/34) / [Github arm runners](https://github.com/pq-code-package/tsc/issues/55)
@@ -24,21 +24,23 @@ nav_exclude: true
   * [mlkem-c-generic](https://github.com/pq-code-package/mlkem-c-generic)
   * [mlkem-c-embedded](https://github.com/pq-code-package/mlkem-c-embedded)
   * [mlkem-c-aarch64](https://github.com/pq-code-package/mlkem-c-aarch64)
-  * [mkkem-libjade](https://github.com/pq-code-package/mlkem-libjade)
+  * [mlkem-libjade](https://github.com/pq-code-package/mlkem-libjade)
   * [mlkem-rust-libcrux](https://github.com/pq-code-package/mlkem-rust-libcrux)
   * [documentation](https://github.com/pq-code-package/documentation)
 * Review  [open TSC issues](https://github.com/pq-code-package/tsc/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc):
 
-  * any noteable progress
+  * any notable progress
   * topics for next meeting
 * Any other business
 * Next meeting / ongoing schedule
 
 ## Introductions
 
-Rod Chapman introduced himself as a colleague of Hano's at AWS Cryptography Group with a particular interest in formal verification of PQC. He has previously build a formally verified implementation of Kyber.
+Rod Chapman introduced himself as a colleague of Hanno's at AWS Cryptography Group with a particular interest in formal verification of PQC. He has previously build a formally verified implementation of Kyber.
 
 ## Decisions
+
+no formal votes
 
 ## Discussion
 
@@ -54,7 +56,7 @@ Nigel confirmed that he was elected TSC Chair following the vote.
 
 Matthias summarized that his team want to benchmark, which is where real ARM processors are needed. This should be automated so that we can  compare over time. For regular testing emulation remains an option.
 
-hano noted that we need to know exactly what hardware we are running on. Git runners may be an option if we can find this out. Benchmarking will also be done on specific hardware boards. Graviton is an interesting target.
+Hanno noted that we need to know exactly what hardware we are running on. Git runners may be an option if we can find this out. Benchmarking will also be done on specific hardware boards. Graviton is an interesting target.
 
 We agreed bare metal instances were not needed - experience indicates using the virtualized environments are good enough - and a lot cheaper.
 
@@ -66,7 +68,7 @@ The team agreed to continue discussion via issues as this has been progressing w
 
 ### Security
 
-Nigel noted that liboqs recently enabled private vulnarability reporting in their github repositories and proposed we do the same in pqcp (including creation of a SECURITY.md). We agreed this was reasonable to do.
+Nigel noted that liboqs recently enabled private vulnerability reporting in their github repositories and proposed we do the same in pqcp (including creation of a SECURITY.md). We agreed this was reasonable to do.
 
 ### PQCA update
 
@@ -80,7 +82,7 @@ Finally there is currently a vote for vice-chair open.
 
 Nigel mentioned scorecard work had started in OQS, and whilst we have scorecards in pqcp, there is action to act on the findings.
 
-The potential of needing funding for formal audits was also brought up, but Matthias felt there is a fair way off yet. Ry pointed out that Trail Bits has recently joined PQCA. Doug mentioned OQS had a call with TrailBits recently, and hopefully they'll be looking at some oqs code pro-bono.
+The potential of needing funding for formal audits was also brought up, but Matthias felt there is a fair way off yet. Ry pointed out that Trail Bits has recently joined PQCA. Doug mentioned OQS had a call with TrailBits recently, and hopefully they'll be looking at some oqs code pro bono.
 
 ### Open Quantum Safe
 
@@ -90,32 +92,59 @@ Release 0.11 is being worked towards over the next month. Two likely inclusions 
 
 A security issue was also reported which now has a patch.
 
-Ry pointed out that OQS has a [dashboard](https://openquantumsafe.org/dashboard) which can include links to openssf reports. Nigel mentioned if we benchmark this could be useful info to add. Max pointed out we need to ensure the content is actionable, ie we use it.
+Ry pointed out that OQS has a [dashboard](https://openquantumsafe.org/dashboard) which can include links to OpenSSF reports. Nigel mentioned if we benchmark this could be useful info to add. Max pointed out we need to ensure the content is actionable, ie we use it.
 
- 
- ### What does assured mean
+### What does assured mean
 
- _to be written_
+We reviewed the discussion so far in [mlkem-c-aarch64#37](https://github.com/pq-code-package/mlkem-c-aarch64/issues/37)
 
- ### Hackathons
+Minimum could be to run tests properly, use test vectors, run static analysis. If going for higher assurance we should do more - ie formal methods to prove no undefined behaviour, constant-time verification. Later extending to assembly correctness. Maybe we also look into additional tooling like CBMC especially when working on highly micro-optimized assembly.
 
- _to be written_
+'production-ready'- very dependent on user's requirements ie embedded system vs cloud-scale service. Other aspects - like supply-chain security, performance, portability, BOMs are part of this too. Different implementations will vary (ie libjade etc is higher). Maybe alpha/pre-releases have lower guarantees. What's needed is to explain and document. can raise the bar over time.
 
- ### Review of subprojects
+Manuel clarified a thought early on was to establish a taxonomy - or at least a set of terms that describe the levels of assurance.
 
- _to be written_
+Rod pointed out that other industry assurance cases (safety critical etc) go with 'principles based assurance', or 'evidence based assurance' whereby you make a claim, and provide evidence to support - that may include tool used. Also clearly state assumptions. We should aim-high as seen with libjade, or (proprietary) AWS.
+
+It was also pointed out that having any version is out than waiting for perfection.
+
+Summary of characteristics discussed:
+
+* run tests properly
+* static analysis
+* formal proof of no undefined behaviour
+* provide assembly correctness
+* formal audit
+* constant time verification
+* formal specification
+* dynamic testing
+* functional correctness
+
+Discussion & goal of creating list of terms/definitions to continue in issue & review progress in next meeting.
+
+### Hackathons
+
+Very brief discussion about implementation-specific hackathons - not had additional developers getting in touch yet to join existing projects.
+
+### Review of subprojects
+
+Not discussed due to time.
 
 ### Any other business
 
- _to be written_
+No other topics.
 
 ### Next meeting / ongoing schedule
 
- _to be written_
+* Some concern that current time is very early for US west coast (0600)- though we also cover Taiwan.
+* Alternate times an option
+* As out of time agreed to schedule a 1-off meeting for 2 weeks time & discuss in issue/at next session.
 
 ## Action items
 
 Action items
+
+* [ ] Nigel to open issue to agree long-term meeting schedule
 
 ### Done (from previous minutes)
 
@@ -149,17 +178,16 @@ The next meeting will be scheduled in 2 weeks time - 1300 UTC on 2024-06-06
 * [x] [Hanno Becker](https://github.com/hanno-becker), AWS
 * [x] [Nigel Jones](https://github.com/planetf1), IBM
 * [x] [Matthias J. Kannwischer](https://github.com/mkannwischer), CHelpis Quantum Tech
-* [x] [Franziskus Kiefer](https://github.com/franziskuskiefer), Cryspen
-* [x] [Tiago Oliveira](https://github.com/tfaoliveira), Sandbox AQ
+* [ ] [Franziskus Kiefer](https://github.com/franziskuskiefer), Cryspen
+* [ ] [Tiago Oliveira](https://github.com/tfaoliveira), Sandbox AQ
 * [ ] [John Schanck](https://github.com/jschanck), Mozilla
 * [x] [Douglas Stebila](https://github.com/dstebila), University of Waterloo
 
 ### Additional attendees
 
 * Alex Bozarth, IBM
-* Norman Ashley, Cisco
-* Naomi Washington, Linux Foundation
-* Ry Jones, Linux Foundation
-* Yarkin Doroz, Worcester Polytechnic Institute
-* Duc Tri Nguyen, Cryptography Engineering Research Group @ GMU
 * Rod Chapman, Amazon Web Services
+* Ry Jones, Linux Foundation
+* Michael Maximilien, IBM
+* Hart Montgomery, Linux Foundation
+* Naomi Washington, Linux Foundation
