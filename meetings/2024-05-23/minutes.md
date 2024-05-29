@@ -178,8 +178,8 @@ The next meeting will be scheduled in 2 weeks time - 1300 UTC on 2024-06-06
 * [x] [Hanno Becker](https://github.com/hanno-becker), AWS
 * [x] [Nigel Jones](https://github.com/planetf1), IBM
 * [x] [Matthias J. Kannwischer](https://github.com/mkannwischer), CHelpis Quantum Tech
-* [ ] [Franziskus Kiefer](https://github.com/franziskuskiefer), Cryspen
-* [ ] [Tiago Oliveira](https://github.com/tfaoliveira), Sandbox AQ
+* [X] [Franziskus Kiefer](https://github.com/franziskuskiefer), Cryspen
+* [X] [Tiago Oliveira](https://github.com/tfaoliveira), Sandbox AQ
 * [ ] [John Schanck](https://github.com/jschanck), Mozilla
 * [x] [Douglas Stebila](https://github.com/dstebila), University of Waterloo
 
@@ -187,7 +187,9 @@ The next meeting will be scheduled in 2 weeks time - 1300 UTC on 2024-06-06
 
 * Alex Bozarth, IBM
 * Rod Chapman, Amazon Web Services
+* Yarkin Doroz, Worcester Polytechnic Institute
 * Ry Jones, Linux Foundation
 * Michael Maximilien, IBM
 * Hart Montgomery, Linux Foundation
+* Duc Tri Nguyen, Cryptography Engineering Research Group @ GMU
 * Naomi Washington, Linux Foundation
