@@ -104,7 +104,7 @@ Minimum could be to run tests properly, use test vectors, run static analysis. I
 
 Manuel clarified a thought early on was to establish a taxonomy - or at least a set of terms that describe the levels of assurance.
 
-Rod pointed out that other industry assurance cases (safety critical etc) go with 'principles based assurance', or 'evidence based assurance' whereby you make a claim, and provide evidence to support - that may include tool used. Also clearly state assumptions. We should aim-high as seen with libjade, or (proprietary) AWS.
+Rod pointed out that other industry assurance cases (safety critical etc) go with 'principles based assurance', or 'evidence based assurance' whereby you make a claim, and provide evidence to support - that may include tool used. Also clearly state assumptions. We should aim-high as seen with libjade, or AWS' s2n-bignum.
 
 It was also pointed out that having any version is out than waiting for perfection.
 
