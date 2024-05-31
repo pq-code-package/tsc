@@ -98,7 +98,7 @@ Ry pointed out that OQS has a [dashboard](https://openquantumsafe.org/dashboard)
 
 We reviewed the discussion so far in [mlkem-c-aarch64#37](https://github.com/pq-code-package/mlkem-c-aarch64/issues/37)
 
-Minimum could be to run tests properly, use test vectors, run static analysis. If going for higher assurance we should do more - ie formal methods to prove no undefined behaviour, constant-time verification. Later extending to assembly correctness. Maybe we also look into additional tooling like CBMC especially when working on highly micro-optimized assembly.
+Minimum could be to run tests properly, use test vectors, run static analysis. If going for higher assurance we should do more - ie formal methods to prove no undefined behaviour (e.g. using CBMC), constant-time verification. Later extending to assembly correctness. 
 
 'production-ready'- very dependent on user's requirements ie embedded system vs cloud-scale service. Other aspects - like supply-chain security, performance, portability, BOMs are part of this too. Different implementations will vary (ie libjade etc is higher). Maybe alpha/pre-releases have lower guarantees. What's needed is to explain and document. can raise the bar over time.
 
