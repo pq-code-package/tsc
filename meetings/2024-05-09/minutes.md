@@ -168,5 +168,5 @@ Action items
 * Norman Ashley, Cisco
 * Naomi Washington, Linux Foundation
 * Ry Jones, Linux Foundation
-* Yarkin Doroz, Worcester Polytechnic Institute
+* Yarkin Doroz, NVIDIA
 * Duc Tri Nguyen, Cryptography Engineering Research Group @ GMU
