@@ -187,7 +187,7 @@ The next meeting will be scheduled in 2 weeks time - 1300 UTC on 2024-06-06
 
 * Alex Bozarth, IBM
 * Rod Chapman, Amazon Web Services
-* Yarkin Doroz, Worcester Polytechnic Institute
+* Yarkin Doroz, NVIDIA
 * Ry Jones, Linux Foundation
 * Michael Maximilien, IBM
 * Hart Montgomery, Linux Foundation
