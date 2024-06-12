@@ -5,47 +5,65 @@ repositories:
       pqcp-docs: read
       pqcp-docs-maintainers: maintain
       pqcp-docs-admin: admin
+      pqcp-tsc-maintainers: read
+      pqcp-tsc-admin: read
   - name: documentation
     teams:
       pqcp-docs: read
       pqcp-docs-maintainers: maintain
       pqcp-docs-admin: admin
+      pqcp-tsc-maintainers: read
+      pqcp-tsc-admin: read
   - name: mlkem-c-aarch64
     teams:
       pqcp-embedded: read
       pqcp-embedded-admin: admin
       pqcp-embedded-maintainers: maintain
       pqcp-embedded-maintainers-aarch64: maintain
+      pqcp-tsc-maintainers: read
+      pqcp-tsc-admin: read
   - name: mlkem-c-embedded
     teams:
       pqcp-embedded: read
       pqcp-embedded-admin: admin
       pqcp-embedded-maintainers: maintain
+      pqcp-tsc-maintainers: read
+      pqcp-tsc-admin: read
   - name: mlkem-c-generic
     teams:
       pqcp-generic-maintainers: maintain
       pqcp-generic-admin: admin
       pqcp-generic: read
+      pqcp-tsc-maintainers: read
+      pqcp-tsc-admin: read
   - name: mlkem-libjade
     teams:
       pqcp-libjade-admin: admin
       pqcp-libjade-maintainers: maintain
       pqcp-libjade: read
+      pqcp-tsc-maintainers: read
+      pqcp-tsc-admin: read
   - name: mlkem-rust-libcrux
     teams:
       pqcp-libcrux: read
       pqcp-libcrux-admin: admin
       pqcp-libcrux-maintainers: maintain
+      pqcp-tsc-maintainers: read
+      pqcp-tsc-admin: read
   - name: pq-code-package-hackathon
     teams:
       pqcp-docs: read
       pqcp-docs-maintainers: maintain
       pqcp-docs-admin: admin
+      pqcp-tsc-maintainers: read
+      pqcp-tsc-admin: read
   - name: template-code
     teams:
       pqcp-docs: read
       pqcp-docs-maintainers: maintain
       pqcp-docs-admin: admin
+      pqcp-tsc-maintainers: read
+      pqcp-tsc-admin: read
   - name: tsc
     teams:
       pqcp-tsc: read
