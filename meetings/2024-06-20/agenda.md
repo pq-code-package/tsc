@@ -12,10 +12,8 @@
   * [mkkem-libjade](https://github.com/pq-code-package/mlkem-libjade)
   * [mlkem-rust-libcrux](https://github.com/pq-code-package/mlkem-rust-libcrux)
   * [documentation](https://github.com/pq-code-package/documentation)
-* Review  [open TSC issues](https://github.com/pq-code-package/tsc/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc):
-
-  * any noteable progress
-  * topics for next meeting
-* Discussion - [What does 'assured' mean?](https://github.com/pq-code-package/tsc/issues/3) : continued
-* Discussion - [Common API](https://github.com/pq-code-package/tsc/issues/4) : continued
+* [open TSC issues](https://github.com/orgs/pq-code-package/projects/4/views/1):  
+  * [What does 'assured' mean?](https://github.com/pq-code-package/tsc/issues/3) : continued
+  * [Common API](https://github.com/pq-code-package/tsc/issues/4) : continued
+  * [First Release](https://github.com/pq-code-package/tsc/issues/74)
 * Any other business
