@@ -36,7 +36,7 @@ nav_exclude: true
 Apologies noted from Douglas, Matthias and Franziskus.
 
 JP Lomas introduced himself as a developer with QRL Foundation.
-Jonas Schneider-Bensch introduced himself as a developer from Crispin, and providing cover for Franziskus who can't make it today.
+Jonas Schneider-Bensch introduced himself as a developer from Cryspen, and providing cover for Franziskus who can't make it today.
 
 
 ## Decisions
