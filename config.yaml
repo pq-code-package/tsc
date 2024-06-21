@@ -80,6 +80,7 @@ teams:
       - tfaoliveira
       - ashman-p
       - ydoroz
+      - rod-chapman
   - name: pqcp-embedded-admin
     maintainers:
       - mkannwischer
