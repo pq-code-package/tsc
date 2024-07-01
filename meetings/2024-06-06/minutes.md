@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2024-05-23 TSC Meeting Record
+title: 2024-06-06 TSC Meeting Record
 parent: Meeting Minutes
 grand_parent: PQCP TSC
 nav_exclude: true
@@ -128,7 +128,7 @@ No new action items
 
 ## Upcoming TAC meetings
 
-The next meeting will be scheduled in 2 weeks time - 1300 UTC on 2024-06-06
+The next meeting will be scheduled in 2 weeks time - 1300 UTC on 2024-06-20
 
 [Please check the calendar](https://pqca.org/calendar/)
 
