@@ -1,7 +1,7 @@
 # 2024-07-04 :  TSC Agenda
 
 * Welcome
-* [Minutes/actions from previous meeting](https://github.com/pq-code-package/tsc/pull/59/files)
+* [Minutes/actions from previous meeting](https://github.com/pq-code-package/tsc/pull/78/files)
 * Updates from related communities:
   * [PQCA](https://github.com/PQCA)
   * [Open Quantum Safe](https://github.com/open-quantum-safe)
