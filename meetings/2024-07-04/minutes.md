@@ -81,7 +81,7 @@ The next meeting will be scheduled in 2 weeks time - 1300 UTC on 2024-07-18.
 * [ ] [Manuel Barbosa](https://github.com/mbbarbosa), University of Porto
 * [ ] [Hanno Becker](https://github.com/hanno-becker), AWS
 * [X] [Nigel Jones](https://github.com/planetf1), IBM
-* [X] [Matthias J. Kannwischer](https://github.com/mkannwischer), CHelpis Quantum Tech
+* [X] [Matthias J. Kannwischer](https://github.com/mkannwischer), Chelpis Quantum Tech
 * [X] [Franziskus Kiefer](https://github.com/franziskuskiefer), Cryspen
 * [X] [Tiago Oliveira](https://github.com/tfaoliveira), Sandbox AQ
 * [ ] [John Schanck](https://github.com/jschanck), Mozilla
