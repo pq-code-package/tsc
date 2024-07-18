@@ -12,5 +12,6 @@
   * [mkkem-libjade](https://github.com/pq-code-package/mlkem-libjade)
   * [mlkem-rust-libcrux](https://github.com/pq-code-package/mlkem-rust-libcrux)
   * [documentation](https://github.com/pq-code-package/documentation)
+* [API requirements](https://github.com/pq-code-package/tsc/issues/4) - random source, rust vs C, unpacked keys
 * [open TSC issues](https://github.com/orgs/pq-code-package/projects/4/views/1):  
 * Any other business
