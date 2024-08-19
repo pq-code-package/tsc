@@ -24,12 +24,12 @@
 #### PQCA
 
 * Continued discussion on project lifecycle document - to be sent to a vote shortly.
-* Tooling Working group proposal - to include sonarqube plugin work, scanning for crypto usage.
-* Application working group. Discussion about whether in scope. One proposed project for telco core. Understand relationship to work in GSMA, ETSI etc.
+* [Tooling Working group](https://github.com/PQCA/TAC/issues/14) proposal - to include sonarqube plugin work, scanning for crypto usage.
+* [Application working group](https://github.com/PQCA/TAC/issues/34). Discussion about whether in scope. One proposed project for telco core. Understand relationship to work in GSMA, ETSI etc.
 
 #### OQS
 
-* Final release of NIST standards for ML-KEM, ML-DSA, and stateless hash-based signatures.
+* [Final release of NIST standards](https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards) for [ML-KEM](https://csrc.nist.gov/pubs/fips/203/final), [ML-DSA](https://csrc.nist.gov/pubs/fips/204/final), and [stateless hash-based signatures](https://csrc.nist.gov/pubs/fips/205/final).
 * Expecting quite release of 0.11 in next 2-3 weeks.
 * Follow-on release for ML-KEM etc in Sep/Oct hopefully.
 * Needs good quality implementation from upstream sources.
