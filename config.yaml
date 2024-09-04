@@ -14,6 +14,7 @@ repositories:
       pqcp-tsc: read
   - name: mlkem-c-aarch64
     teams:
+      bots: write
       pqcp-embedded: read
       pqcp-embedded-admin: admin
       pqcp-embedded-maintainers: maintain
@@ -61,6 +62,11 @@ repositories:
       pqcp-tsc-maintainers: maintain
       pqcp-tsc-admin: admin
 teams:
+  - name: bots
+    maintainers:
+      - ryjones
+    members:
+      - oqs-bot
   - name: pqcp-contributors
     maintainers:
       - mkannwischer
