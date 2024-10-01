@@ -15,10 +15,9 @@ repositories:
   - name: mlkem-c-aarch64
     teams:
       bots: admin
-      pqcp-embedded: read
-      pqcp-embedded-admin: admin
-      pqcp-embedded-maintainers: maintain
-      pqcp-embedded-maintainers-aarch64: maintain
+      pqcp-c-aarch64-admin: admin
+      pqcp-c-aarch64-contributors: write
+      pqcp-c-aarch64-maintainers: maintain
       pqcp-tsc: read
   - name: mlkem-c-embedded
     teams:
@@ -89,12 +88,6 @@ teams:
     maintainers:
       - mkannwischer
       - planetf1
-  - name: pqcp-embedded-maintainers-aarch64
-    maintainers:
-      - mkannwischer
-    members:
-      - cothan
-      - hanno-becker
   - name: pqcp-embedded-maintainers
     maintainers:
       - mkannwischer
@@ -111,6 +104,24 @@ teams:
       - rpls
       - potsrevennil
       - jschanck
+  - name: pqcp-c-aarch64-admin
+    maintainers:
+      - mkannwischer
+      - planetf1
+  - name: pqcp-c-aarch64-maintainers
+    maintainers:
+      - mkannwischer
+    members:
+      - cothan
+      - hanno-becker
+  - name: pqcp-c-aarch64-contributors
+    maintainers:
+      - mkannwischer
+      - cothan
+      - hanno-becker
+    members:
+      - potsrevennil
+      - rod-chapman
   - name: pqcp-generic-admin
     maintainers:
       - jschanck
