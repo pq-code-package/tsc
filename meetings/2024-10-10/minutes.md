@@ -36,13 +36,13 @@ Minutes have been merged. Please raise issue/PR for any corrections.
 
 * 0.11 release of liboqs completed. Working through updating downstream projects include liboqs-provider
 * Using ML-KEM etc from PQCrystals, but goal remains to pull from pqcp.
-* Franziskus has been in touch about exported C implementations from libcrux - will discuss. 
+* Franziskus has been in touch about exported C implementations from libcrux - will discuss.
 
 ### Review of subprojects
 
 ### mlkem-c-aarch64
 
-_Hanno was unable to make the meeting byt provided the following via discord_
+_Hanno was unable to make the meeting but provided the following via discord_
 
 * MLKEM-C-AArch64 has been progressing well, we're now -- from all I know -- the fastest AArch64 implementation out there. The current goal is to work through the AVX2 code from the reference implementation and fit it into a common C<-Native interface suiting both AArch64 and AVX2.
 
@@ -77,7 +77,7 @@ No updates.
 ### Outstanding
 
 * [ ] Contact John Schanck to see if interested in retiming TSC meetings.
-  - _will wait until after discussion on generic implementations_
+  * _will wait until after discussion on generic implementations_
 
 ### Completed
 
