@@ -15,8 +15,15 @@
   * [mkkem-libjade](https://github.com/pq-code-package/mlkem-libjade)
   * [mlkem-rust-libcrux](https://github.com/pq-code-package/mlkem-rust-libcrux)
   * [documentation](https://github.com/pq-code-package/documentation)
-* [open TSC issues](https://github.com/orgs/pq-code-package/projects/4/views/1)
+* Discussion
+  * [mlkem-native #105](https://github.com/pq-code-package/tsc/issues/105)
+  * [liboqs usage #103](https://github.com/pq-code-package/tsc/issues/103)
+  * [randombytes() #86](https://github.com/pq-code-package/tsc/issues/86)
+  * [serialized vs deserialized #4](https://github.com/pq-code-package/tsc/issues/4)
+  * [open TSC issues](https://github.com/orgs/pq-code-package/projects/4/views/1)
 * Any other business
+  * liboqs representative
+  * meeting schedule/duration
 
 
 
