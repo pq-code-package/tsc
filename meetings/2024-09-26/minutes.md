@@ -19,7 +19,7 @@
 
 * Any other business
 
-## Welcome
+Lomas, QRL## Welcome
 
 ## Minutes/actions from previous meeting
 
@@ -110,7 +110,7 @@ Minutes have been merged. Please raise issue/PR for any corrections.
 ### Additional attendees
 
 * Ry Jones, Linux Foundation
-* J P Lomas, QRL
+* J P 
 
 # Links
 https://app.octolense.com/accounts/pq-code-package
