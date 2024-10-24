@@ -112,14 +112,13 @@ teams:
     maintainers:
       - mkannwischer
     members:
-      - cothan
       - hanno-becker
   - name: pqcp-c-aarch64-contributors
     maintainers:
       - mkannwischer
-      - cothan
       - hanno-becker
     members:
+      - cothan
       - potsrevennil
       - rod-chapman
   - name: pqcp-generic-admin
