@@ -4,8 +4,8 @@
 
 * Welcome
 
-* [Minutes/actions from previous meeting](../2024-10-10/minutes.md)
-  * Proposal/vote on Pravek Sharma becoming TSC rep
+* [Minutes/actions from previous meeting](../2024-11-24/minutes.md)
+  * Proposal/vote on Pravek Sharma joining TSC
 
 * Updates from related communities:
   * [PQCA](https://github.com/PQCA)
