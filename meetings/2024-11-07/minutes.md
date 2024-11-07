@@ -21,10 +21,11 @@
   * [documentation](https://github.com/pq-code-package/documentation)
 
 * Discussion (if not covered previously)
-  * [OpenSSL CLA](https://github.com/pq-code-package/tsc/issues/113)
-  * [mlkem-native #105](https://github.com/pq-code-package/tsc/issues/105)
-  * [liboqs usage #103](https://github.com/pq-code-package/tsc/issues/103)
-  * [randombytes() #86](https://github.com/pq-code-package/tsc/issues/86)
+  * [Requiring OpenSSL CLA #113](https://github.com/pq-code-package/tsc/issues/113)
+  * [Renaming of mlkem-native #105](https://github.com/pq-code-package/tsc/issues/105)
+  * [Working towards liboqs usage #103](https://github.com/pq-code-package/tsc/issues/103)
+  * [FIP203 - 7 function api #4](https://github.com/pq-code-package/tsc/issues/4#issuecomment-2456391348)
+  * [Do we supply randombytes() #86](https://github.com/pq-code-package/tsc/issues/86)
   * [serialized vs deserialized #4](https://github.com/pq-code-package/tsc/issues/4)
   * [Other Open TSC issues](https://github.com/orgs/pq-code-package/projects/4/views/1)
 
