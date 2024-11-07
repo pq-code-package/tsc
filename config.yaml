@@ -12,12 +12,12 @@ repositories:
       pqcp-docs-maintainers: maintain
       pqcp-docs-admin: admin
       pqcp-tsc: read
-  - name: mlkem-c-aarch64
+  - name: mlkem-native
     teams:
       bots: admin
-      pqcp-c-aarch64-admin: admin
-      pqcp-c-aarch64-contributors: write
-      pqcp-c-aarch64-maintainers: maintain
+      pqcp-native-admin: admin
+      pqcp-native-contributors: write
+      pqcp-native-maintainers: maintain
       pqcp-tsc: read
   - name: mlkem-c-embedded
     teams:
@@ -104,16 +104,16 @@ teams:
       - rpls
       - potsrevennil
       - jschanck
-  - name: pqcp-c-aarch64-admin
+  - name: pqcp-native-admin
     maintainers:
       - mkannwischer
       - planetf1
-  - name: pqcp-c-aarch64-maintainers
+  - name: pqcp-native-maintainers
     maintainers:
       - mkannwischer
     members:
       - hanno-becker
-  - name: pqcp-c-aarch64-contributors
+  - name: pqcp-native-contributors
     maintainers:
       - mkannwischer
       - hanno-becker
