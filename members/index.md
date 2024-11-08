@@ -10,6 +10,7 @@ The current TSC voting members are:
 * [Franziskus Kiefer](https://github.com/franziskuskiefer)
 * [Tiago Oliveira](https://github.com/tfaoliveira)
 * [John Schanck](https://github.com/jschanck)
+* [Pravek Sharma](https://github.com/praveksharma)
 * [Douglas Stebila](https://github.com/dstebila)
 
 Anyone is welcome to contribute to the work of the TSC through meetings, issues & other activities.
