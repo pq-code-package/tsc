@@ -84,6 +84,7 @@ teams:
       - ashman-p
       - ydoroz
       - rod-chapman
+      - praveksharma
   - name: pqcp-embedded-admin
     maintainers:
       - mkannwischer
@@ -205,6 +206,7 @@ teams:
       - potsrevennil
       - rpls
       - tfaoliveira
+      - praveksharma
   - name: pqcp-tsc-maintainers
     maintainers:
       - dstebila
