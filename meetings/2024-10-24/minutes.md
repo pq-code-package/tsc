@@ -25,7 +25,7 @@
   * liboqs representative
   * meeting schedule/duration
 
-  ## Welcome
+## Welcome
 
 ## Minutes/actions from previous meeting
 
