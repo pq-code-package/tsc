@@ -50,15 +50,15 @@ None of today's attendees were at the PQCA meeting, so no update.
 
 * Additional proofs finished on AVX rejection sampling code
 * Tiago working on pushing things up from upstream to pqcp.
-* Close to having a AVX2 implemention ready to go out.
+* Close to having a AVX2 implementation ready to go out.
 * Will need to add new APIs as that general discussion continues.
 * After this want to do arm verified implementations, & dilithium. Cortex-M4 to start, more powerful in future, also vectorization.
 
 ### mlkem-native (was mlkem-c-aarch64)
 
-* Finished CMBC proofs for everything except SHA-3 (C code -> top level API).
+* Finished CBMC proofs for everything except SHA-3 (C code -> top level API).
   * Absence of undefined behaviour, memory safety / no overflow.
-  * CMBC is pragmatic choice - assumed/guaranteed bounds of input/output.
+  * CBMC is pragmatic choice - assumed/guaranteed bounds of input/output.
 * Release in next 2-3 weeks hopefully.
 
 #### Open TSC issues
@@ -73,14 +73,14 @@ None of today's attendees were at the PQCA meeting, so no update.
 
 * Releases / structure
   * libjade
-    * will be AVX2 (perhaps x86) assembly + source code (single jasmin file) + header for C + docs.
+    * will be AVX2 (perhaps x86) assembly + source code (single Jasmin file) + header for C + docs.
     * in future will expand as compiler adds new backends.
     * user provides randombytes().
     * next year make it possible to reuse parts of implementations, not all of it.
     * liboqs will be consuming from pqcp in future.
   * mlkem-native
     * source code only initially. considering a library.
-    * aarch64 has many keccak implementations... may need to determine at runtime in future.
+    * aarch64 has many Keccak implementations... may need to determine at runtime in future.
   * generally... more discussion on APIs and modularity.
   
 ## Action items
@@ -105,7 +105,7 @@ None of today's attendees were at the PQCA meeting, so no update.
 
 ### TSC voting members
 
-* [ ] [Manuel Barbosa](https://github.com/mbbarbosa), University of Porto
+* [X] [Manuel Barbosa](https://github.com/mbbarbosa), University of Porto
 * [X] [Hanno Becker](https://github.com/hanno-becker), AWS
 * [ ] [Nigel Jones](https://github.com/planetf1), IBM
 * [X] [Matthias J. Kannwischer](https://github.com/mkannwischer), Chelpis Quantum Tech
