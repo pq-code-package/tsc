@@ -85,6 +85,7 @@ teams:
       - ydoroz
       - rod-chapman
       - praveksharma
+      - jargh
   - name: pqcp-embedded-admin
     maintainers:
       - mkannwischer
@@ -122,6 +123,7 @@ teams:
       - cothan
       - potsrevennil
       - rod-chapman
+      - jargh
   - name: pqcp-generic-admin
     maintainers:
       - jschanck
