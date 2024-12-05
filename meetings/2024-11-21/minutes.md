@@ -27,7 +27,7 @@
 
 * Any other business
 
- ## Welcome
+## Welcome
 
 * Matthias welcomed everyone to the meeting. Nigel unable to join today
 
