@@ -23,5 +23,6 @@
   * [Working towards liboqs usage #103](https://github.com/pq-code-package/tsc/issues/103)
   * [Requiring OpenSSL CLA #113](https://github.com/pq-code-package/tsc/issues/113)
   * [Other Open TSC issues](https://github.com/orgs/pq-code-package/projects/4/views/1)
+  * Meetings : Dec 19, Jan 2 - any changes/cancellations needed?
 
 * Any other business
