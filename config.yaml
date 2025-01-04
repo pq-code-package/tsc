@@ -86,6 +86,7 @@ teams:
       - rod-chapman
       - praveksharma
       - jargh
+      - dkostic
   - name: pqcp-embedded-admin
     maintainers:
       - mkannwischer
@@ -110,6 +111,7 @@ teams:
     maintainers:
       - mkannwischer
       - planetf1
+      - hanno-becker
   - name: pqcp-native-maintainers
     maintainers:
       - mkannwischer
@@ -124,6 +126,7 @@ teams:
       - potsrevennil
       - rod-chapman
       - jargh
+      - dkostic
   - name: pqcp-generic-admin
     maintainers:
       - jschanck
