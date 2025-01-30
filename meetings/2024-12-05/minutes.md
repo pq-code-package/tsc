@@ -67,7 +67,7 @@ required change. Work now is actually integrating
 
 #### Open TSC issues
 
-* [#113](https://github.com/pq-code-package/tsc/issues/113) (OpenSSL SLA) - contributors need to sign OpenSSL CLA. OpenSSL may then be able to use any of our implementations. General consensus this is ok, and we should aim to do it for all subprojects, including new ones from the beginning. We should document our policy and procedures (action).
+* [#113](https://github.com/pq-code-package/tsc/issues/113) (OpenSSL CLA) - contributors need to sign OpenSSL CLA. OpenSSL may then be able to use any of our implementations. needs further discussion. We should document our policy and procedures (action).
 * [#4](https://github.com/pq-code-package/tsc/issues/4) (API Changes) - as above, email being drafted by Matthias for NIST.
 
 ### Any other business
