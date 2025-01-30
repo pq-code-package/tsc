@@ -55,7 +55,7 @@ Correction noted from previous meeting minutes (openSSL CLA). Will update.
 
 * Progress on arm implementations of mlkem. Non vectorized, running on embedded platform. Proof finished for avx2. Release soon.
 
-#### mlkem-c-libcrux
+#### mlkem-rust-libcrux
 
 * rust library already installable from upstream source via cargo. Less likely people would just go to github to use. No additional engagement from other contributors. No value-add in having code duplication, so proposing to focus on documentation, findability.
 * there is one other serious rust implementation (rust crypto) - but not formal verification.
