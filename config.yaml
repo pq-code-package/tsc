@@ -15,9 +15,14 @@ repositories:
   - name: mlkem-native
     teams:
       bots: admin
-      pqcp-native-admin: admin
-      pqcp-native-contributors: write
-      pqcp-native-maintainers: maintain
+      pqcp-mlkem-native-admin: admin
+      pqcp-mlkem-native-contributors: write
+      pqcp-tsc: read
+  - name: mldsa-native
+    teams:
+      bots: admin
+      pqcp-mldsa-native-admin: admin
+      pqcp-mldsa-native-contributors: write
       pqcp-tsc: read
   - name: mlkem-c-embedded
     teams:
@@ -87,6 +92,7 @@ teams:
       - praveksharma
       - jargh
       - dkostic
+      - jakemas
   - name: pqcp-embedded-admin
     maintainers:
       - mkannwischer
@@ -107,22 +113,32 @@ teams:
       - rpls
       - potsrevennil
       - jschanck
-  - name: pqcp-native-admin
+  - name: pqcp-mlkem-native-admin
     maintainers:
       - mkannwischer
       - planetf1
       - hanno-becker
-  - name: pqcp-native-maintainers
-    maintainers:
-      - mkannwischer
-    members:
-      - hanno-becker
-  - name: pqcp-native-contributors
+  - name: pqcp-mlkem-native-contributors
     maintainers:
       - mkannwischer
       - hanno-becker
     members:
       - cothan
+      - potsrevennil
+      - rod-chapman
+      - jargh
+      - dkostic
+  - name: pqcp-mldsa-native-admin
+    maintainers:
+      - mkannwischer
+      - hanno-becker
+    members:
+      - jakemas
+  - name: pqcp-mldsa-native-contributors
+    maintainers:
+      - mkannwischer
+      - hanno-becker
+    members:
       - potsrevennil
       - rod-chapman
       - jargh
