@@ -8,7 +8,7 @@
 
 * Membership changes
 
-  * Douglas Stebila has now resigned from the TSC
+  * Douglas Stebila has now [resigned](https://github.com/pq-code-package/tsc/pull/134) from the TSC
   * Welcome the mldsa-native project (agreement via [github](https://github.com/pq-code-package/tsc/issues/135))
     * [Propose @jakemas as voting TSC member](https://github.com/pq-code-package/tsc/issues/139)
 
