@@ -10,16 +10,16 @@
 
   * Douglas Stebila has now resigned from the TSC
   * Welcome the mldsa-native project (agreement via [github](https://github.com/pq-code-package/tsc/issues/135))
-    * Propose @jakemas as voting TSC member
+    * [Propose @jakemas as voting TSC member](https://github.com/pq-code-package/tsc/issues/139)
 
-* [New meeting time proposal](https://github.com/pq-code-package/tsc/issues/128)
+* [New meeting time proposal](https://github.com/pq-code-package/tsc/issues/128) - current proposal:
   * Europe/Asia meeting at 1000 CET
     * 0900 UK, 1700 Taiwan
   * Europe/USA meeting at 1700 CET
     * 0800 US West Coast
     * 1000 Toronto
     * 1100 US East Coast
-  * Scheduled in Central Europe time zone & will follow daylight savings.
+  * Scheduled for 30 minutes in Central Europe time zone & will follow daylight savings.
   * Continue with Thursday. 2 weeks between meetings, so 4 weeks per slot.
 
 * Updates from related communities:
