@@ -84,8 +84,8 @@ Noted that Douglas has resigned as per agenda notice, and that ML-DSA native is 
 The OpenSSL CLA issue was discussed.
 * The issue is whether to get the contributors to ML-KEM-Native to sign the CLA.
 * This means not just the current contributors but also the previous contributors to the reference implementation.
-* The feedback from the PQCrystals team was positive, but not everyone has responded yet.
-* There are about eight people on the reference implementation.
+* The feedback from Peter Schwabe was positive, but he has yet to reach out to the rest of the team.
+* There are nine people in the AUTHORS file of the reference implementation.
 * It is not very likely that OpenSSL will use the PQCP algorithm.
 * The PQCP TSC needs to decide whether it is worth the time to get the CLA signed.
 * The issue will be closed if it is not going anywhere.
