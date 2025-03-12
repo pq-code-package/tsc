@@ -17,7 +17,7 @@
   * [mldsa-native](https://github.com/pq-code-package/mldsa-native)
   * [mlkem-libjade](https://github.com/pq-code-package/mlkem-libjade)
   * [mlkem-rust-libcrux](https://github.com/pq-code-package/mlkem-rust-libcrux)
-  * [mlkem-native](https://github.com/pq-code-package/mlkem-c-embedded)
+  * [mlkem-c-embedded](https://github.com/pq-code-package/mlkem-c-embedded)
 
 * Discussion (if not covered previously)
 
