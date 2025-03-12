@@ -80,7 +80,7 @@ Noted that Douglas has resigned as per agenda notice, and that ML-DSA native is 
   * Additional functions will be added.
   * The NIST issue will be closed.
 * The AWS-LC integration is in progress.
-  * A draft pull request has been opened.
+  * A pull request has been opened: https://github.com/aws/aws-lc/pull/2176
 The OpenSSL CLA issue was discussed.
 * The issue is whether to get the contributors to ML-KEM-Native to sign the CLA.
 * This means not just the current contributors but also the previous contributors to the reference implementation.
