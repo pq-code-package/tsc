@@ -61,7 +61,7 @@ Noted that Douglas has resigned as per agenda notice, and that ML-DSA native is 
 
 #### OQS
 
-* Two big changes were getting ML-KEM-Native into OQS thanks to Bazel and the ML-KEM implementation from CUPQC from Nvidia.
+* Two big changes were getting mlkem-native into OQS thanks to Basil Hess and the ML-KEM implementation from CUPQC from Nvidia.
 * There have been loose conversations around API changes.
   * The feeling is that preserving the current three-function API is not a priority, and offering flexibility to users is preferred.
 * Discussions are underway about whether PQCP should make its own ML-KEM provider.
