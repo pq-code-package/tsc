@@ -34,8 +34,6 @@ A low attendance and brief meeting (time change) - only the following points not
 
 * Matthias confirmed he will check with Hanno and Jake on what we want to do for mlkem-native and mldsa-native.
 
-* Matthias confirmed he will check with the libjade and libcrux teams if they want to write something.
-
 ## Recordings
 
 * [Recordings are available on your Open Profile page](https://openprofile.dev/my-meetings) under Past Meetings.
