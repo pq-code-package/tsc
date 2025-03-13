@@ -228,6 +228,7 @@ teams:
       - rpls
       - tfaoliveira
       - praveksharma
+      - jakemas
   - name: pqcp-tsc-maintainers
     maintainers:
       - dstebila
