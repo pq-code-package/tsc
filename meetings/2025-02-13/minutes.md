@@ -138,4 +138,3 @@ It was noted we should review the backlog in a future meeting
 ### Additional attendees
 
 * Jp Lomas, Die QRL Stiftung
-* Justine Paul, Die QRL Stiftung
