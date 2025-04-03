@@ -93,6 +93,7 @@ teams:
       - jargh
       - dkostic
       - jakemas
+      - manastasova
   - name: pqcp-embedded-admin
     maintainers:
       - mkannwischer
@@ -143,6 +144,7 @@ teams:
       - rod-chapman
       - jargh
       - dkostic
+      - manastasova
   - name: pqcp-generic-admin
     maintainers:
       - jschanck
