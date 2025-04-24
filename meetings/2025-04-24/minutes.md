@@ -32,6 +32,7 @@ Only 2 attendees on 2025-04-14 so meeting canceled.
 
   * [Other Open TSC issues](https://github.com/orgs/pq-code-package/projects/4/views/1)
     * - can we close any of these issues?
+  * Upcoming conferences
 
 * Confirm date/time of next meeting
 
