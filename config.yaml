@@ -94,6 +94,7 @@ teams:
       - dkostic
       - jakemas
       - manastasova
+      - willieyz
   - name: pqcp-embedded-admin
     maintainers:
       - mkannwischer
@@ -129,6 +130,7 @@ teams:
       - rod-chapman
       - jargh
       - dkostic
+      - willieyz
   - name: pqcp-mldsa-native-admin
     maintainers:
       - mkannwischer
@@ -145,6 +147,7 @@ teams:
       - jargh
       - dkostic
       - manastasova
+      - willieyz
   - name: pqcp-generic-admin
     maintainers:
       - jschanck
