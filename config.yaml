@@ -241,6 +241,15 @@ teams:
     maintainers:
       - dstebila
       - planetf1
+    members:
+      - franziskuskiefer
+      - hanno-becker
+      - jschanck
+      - mbbarbosa
+      - mkannwischer
+      - tfaoliveira
+      - praveksharma
+      - jakemas
   - name: pqcp-tsc-admin
     maintainers:
       - dstebila
