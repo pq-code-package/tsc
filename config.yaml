@@ -208,18 +208,14 @@ teams:
   - name: pqcp-docs
     maintainers:
       - planetf1
-      - dstebila
   - name: pqcp-docs-maintainers
     maintainers:
       - planetf1
-      - dstebila
   - name: pqcp-docs-admin
     maintainers:
       - planetf1
-      - dstebila
   - name: pqcp-tsc
     maintainers:
-      - dstebila
       - planetf1
     members:
       - MQuaresma
@@ -239,7 +235,6 @@ teams:
       - jakemas
   - name: pqcp-tsc-maintainers
     maintainers:
-      - dstebila
       - planetf1
     members:
       - franziskuskiefer
@@ -252,5 +247,4 @@ teams:
       - jakemas
   - name: pqcp-tsc-admin
     maintainers:
-      - dstebila
       - planetf1
