@@ -4,8 +4,7 @@ The current TSC voting members are:
 
 * [Manuel Barbosa](https://github.com/mbbarbosa)
 * [Hanno Becker](https://github.com/hanno-becker)
-* [Nigel Jones](https://github.com/planetf1) - TSC Lead
-* [Matthias J. Kannwischer](https://github.com/mkannwischer)
+* [Matthias J. Kannwischer](https://github.com/mkannwischer) - TSC lead
 * [Franziskus Kiefer](https://github.com/franziskuskiefer)
 * [Tiago Oliveira](https://github.com/tfaoliveira)
 * [John Schanck](https://github.com/jschanck)
