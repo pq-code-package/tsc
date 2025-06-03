@@ -72,8 +72,6 @@ teams:
   - name: pqcp-contributors
     maintainers:
       - mkannwischer
-      - planetf1
-      - dstebila
     members:
       - hartm
       - rpls
@@ -96,21 +94,19 @@ teams:
       - manastasova
       - willieyz
       - mjosaarinen
+      - planetf1
   - name: pqcp-embedded-admin
     maintainers:
       - mkannwischer
-      - planetf1
   - name: pqcp-embedded-maintainers
     maintainers:
       - mkannwischer
-      - planetf1
     members:
       - rpls
       - potsrevennil
   - name: pqcp-embedded
     maintainers:
       - mkannwischer
-      - planetf1
     members:
       - cryptojedi
       - rpls
@@ -119,7 +115,6 @@ teams:
   - name: pqcp-mlkem-native-admin
     maintainers:
       - mkannwischer
-      - planetf1
       - hanno-becker
   - name: pqcp-mlkem-native-contributors
     maintainers:
@@ -154,18 +149,15 @@ teams:
   - name: pqcp-generic-admin
     maintainers:
       - jschanck
-      - planetf1
     members:
       - cryptojedi
   - name: pqcp-generic-maintainers
     maintainers:
-      - planetf1
       - jschanck
     members:
       - cryptojedi
   - name: pqcp-generic
     maintainers:
-      - planetf1
       - jschanck
     members:
       - cryptojedi
@@ -173,50 +165,45 @@ teams:
   - name: pqcp-libcrux-admin
     maintainers:
       - franziskuskiefer
-      - planetf1
   - name: pqcp-libcrux-maintainers
     maintainers:
       - franziskuskiefer
-      - planetf1
     members:
   - name: pqcp-libcrux
     maintainers:
       - franziskuskiefer
-      - planetf1
     members:
       - karthikbhargavan
   - name: pqcp-libjade-admin
     maintainers:
-      - planetf1
+      - mbbarbosa
     members:
       - cryptojedi
   - name: pqcp-libjade-maintainers
     maintainers:
-      - planetf1
+      - mbbarbosa
     members:
       - cryptojedi
-      - mbbarbosa
       - tfaoliveira
   - name: pqcp-libjade
     maintainers:
       - mbbarbosa
-      - planetf1
     members:
       - MQuaresma
       - cryptojedi
       - tfaoliveira
   - name: pqcp-docs
     maintainers:
-      - planetf1
+      - mkannwischer
   - name: pqcp-docs-maintainers
     maintainers:
-      - planetf1
+      - mkannwischer
   - name: pqcp-docs-admin
     maintainers:
-      - planetf1
+      - mkannwischer
   - name: pqcp-tsc
     maintainers:
-      - planetf1
+      - mkannwischer
     members:
       - MQuaresma
       - ajbozarth
@@ -227,7 +214,7 @@ teams:
       - jschanck
       - karthikbhargavan
       - mbbarbosa
-      - mkannwischer
+      - planetf1
       - potsrevennil
       - rpls
       - tfaoliveira
@@ -235,16 +222,15 @@ teams:
       - jakemas
   - name: pqcp-tsc-maintainers
     maintainers:
-      - planetf1
+      - mkannwischer
     members:
       - franziskuskiefer
       - hanno-becker
       - jschanck
       - mbbarbosa
-      - mkannwischer
       - tfaoliveira
       - praveksharma
       - jakemas
   - name: pqcp-tsc-admin
     maintainers:
-      - planetf1
+      - mkannwischer
