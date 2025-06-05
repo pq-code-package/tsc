@@ -6,9 +6,10 @@ The current TSC voting members are:
 * [Hanno Becker](https://github.com/hanno-becker)
 * [Matthias J. Kannwischer](https://github.com/mkannwischer) - TSC lead
 * [Franziskus Kiefer](https://github.com/franziskuskiefer)
+* [Jake Massimo](https://github.com/jakemas)
 * [Tiago Oliveira](https://github.com/tfaoliveira)
 * [Pravek Sharma](https://github.com/praveksharma)
-* [Jake Massimo](https://github.com/jakemas)
+
 
 Anyone is welcome to contribute to the work of the TSC through meetings, issues & other activities.
 

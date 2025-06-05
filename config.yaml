@@ -62,8 +62,7 @@ repositories:
       pqcp-tsc: read
   - name: tsc
     teams:
-      pqcp-tsc: read
-      pqcp-tsc-maintainers: maintain
+      pqcp-tsc: maintain
       pqcp-tsc-admin: admin
 teams:
   - name: bots
@@ -205,30 +204,12 @@ teams:
     maintainers:
       - mkannwischer
     members:
-      - MQuaresma
-      - ajbozarth
-      - ashman-p
-      - cryptojedi
-      - franziskuskiefer
-      - hanno-becker
-      - karthikbhargavan
       - mbbarbosa
-      - planetf1
-      - potsrevennil
-      - rpls
+      - hanno-becker
+      - franziskuskiefer
+      - jakemas
       - tfaoliveira
       - praveksharma
-      - jakemas
-  - name: pqcp-tsc-maintainers
-    maintainers:
-      - mkannwischer
-    members:
-      - franziskuskiefer
-      - hanno-becker
-      - mbbarbosa
-      - tfaoliveira
-      - praveksharma
-      - jakemas
   - name: pqcp-tsc-admin
     maintainers:
       - mkannwischer
