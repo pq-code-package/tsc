@@ -24,6 +24,11 @@ repositories:
       pqcp-mldsa-native-admin: admin
       pqcp-mldsa-native-contributors: write
       pqcp-tsc: read
+  - name: slhdsa-c
+    teams:
+      bots: admin
+      pqcp-slhdsa-c-admin: admin
+      pqcp-slhdsa-c-contributors: write
   - name: mlkem-c-embedded
     teams:
       pqcp-embedded: read
@@ -94,6 +99,8 @@ teams:
       - willieyz
       - mjosaarinen
       - planetf1
+      - dstebila
+      - h2parson
   - name: pqcp-embedded-admin
     maintainers:
       - mkannwischer
@@ -145,6 +152,22 @@ teams:
       - manastasova
       - willieyz
       - mjosaarinen
+  - name: pqcp-slhdsa-c-admin
+    maintainers:
+      - mkannwischer
+    members:
+      - mjosaarinen
+      - praveksharma
+      - dstebila
+  - name: pqcp-slhdsa-c-contributors
+    maintainers:
+      - mkannwischer
+      - mjosaarinen
+      - praveksharma
+      - dstebila
+    members:
+      - h2parson
+      - willieyz
   - name: pqcp-generic-admin
     maintainers:
       - jschanck
