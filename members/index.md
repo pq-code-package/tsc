@@ -8,6 +8,7 @@ The current TSC voting members are:
 * [Franziskus Kiefer](https://github.com/franziskuskiefer)
 * [Jake Massimo](https://github.com/jakemas)
 * [Tiago Oliveira](https://github.com/tfaoliveira)
+* [Markku-Juhani Saarinen](https://github.com/mjosaarinen)
 * [Pravek Sharma](https://github.com/praveksharma)
 
 
