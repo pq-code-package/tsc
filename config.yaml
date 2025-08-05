@@ -29,6 +29,7 @@ repositories:
       bots: admin
       pqcp-slhdsa-c-admin: admin
       pqcp-slhdsa-c-contributors: write
+      pqcp-tsc: read
   - name: mlkem-c-embedded
     teams:
       pqcp-embedded: read
