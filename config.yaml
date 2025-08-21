@@ -102,6 +102,7 @@ teams:
       - planetf1
       - dstebila
       - h2parson
+      - jammychiou1
   - name: pqcp-embedded-admin
     maintainers:
       - mkannwischer
@@ -153,6 +154,7 @@ teams:
       - manastasova
       - willieyz
       - mjosaarinen
+      - jammychiou1
   - name: pqcp-slhdsa-c-admin
     maintainers:
       - mkannwischer
