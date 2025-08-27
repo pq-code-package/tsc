@@ -136,6 +136,7 @@ teams:
       - dkostic
       - willieyz
       - mjosaarinen
+      - bremoran
   - name: pqcp-mldsa-native-admin
     maintainers:
       - mkannwischer
@@ -155,6 +156,7 @@ teams:
       - willieyz
       - mjosaarinen
       - jammychiou1
+      - bremoran
   - name: pqcp-slhdsa-c-admin
     maintainers:
       - mkannwischer
