@@ -48,7 +48,7 @@ repositories:
       pqcp-libjade-maintainers: maintain
       pqcp-libjade: read
       pqcp-tsc: read
-  - name: mlkem-rust-libcrux
+  - name: rust-libcrux
     teams:
       pqcp-libcrux: read
       pqcp-libcrux-admin: admin
