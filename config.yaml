@@ -74,35 +74,6 @@ teams:
   - name: bots
     maintainers:
       - oqs-bot
-  - name: pqcp-contributors
-    maintainers:
-      - mkannwischer
-    members:
-      - hartm
-      - rpls
-      - MQuaresma
-      - ajbozarth
-      - cryptojedi
-      - franziskuskiefer
-      - jschanck
-      - karthikbhargavan
-      - mbbarbosa
-      - potsrevennil
-      - tfaoliveira
-      - ashman-p
-      - ydoroz
-      - rod-chapman
-      - praveksharma
-      - jargh
-      - dkostic
-      - jakemas
-      - manastasova
-      - willieyz
-      - mjosaarinen
-      - planetf1
-      - dstebila
-      - h2parson
-      - jammychiou1
   - name: pqcp-embedded-admin
     maintainers:
       - mkannwischer
@@ -137,6 +108,7 @@ teams:
       - willieyz
       - mjosaarinen
       - bremoran
+      - L-series
   - name: pqcp-mldsa-native-admin
     maintainers:
       - mkannwischer
@@ -157,6 +129,7 @@ teams:
       - mjosaarinen
       - jammychiou1
       - bremoran
+      - L-series
   - name: pqcp-slhdsa-c-admin
     maintainers:
       - mkannwischer
