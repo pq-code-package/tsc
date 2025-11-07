@@ -137,6 +137,7 @@ teams:
       - willieyz
       - mjosaarinen
       - bremoran
+      - L-series
   - name: pqcp-mldsa-native-admin
     maintainers:
       - mkannwischer
@@ -157,6 +158,7 @@ teams:
       - mjosaarinen
       - jammychiou1
       - bremoran
+      - L-series
   - name: pqcp-slhdsa-c-admin
     maintainers:
       - mkannwischer
