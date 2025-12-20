@@ -109,6 +109,7 @@ teams:
       - mjosaarinen
       - bremoran
       - L-series
+      - f15hr
   - name: pqcp-mldsa-native-admin
     maintainers:
       - mkannwischer
@@ -130,6 +131,7 @@ teams:
       - jammychiou1
       - bremoran
       - L-series
+      - f15hr
   - name: pqcp-slhdsa-c-admin
     maintainers:
       - mkannwischer
