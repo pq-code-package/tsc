@@ -110,6 +110,7 @@ teams:
       - bremoran
       - L-series
       - f15hr
+      - manastasova
   - name: pqcp-mldsa-native-admin
     maintainers:
       - mkannwischer
