@@ -9,7 +9,7 @@ The current TSC voting members are:
 * [Jake Massimo](https://github.com/jakemas)
 * [Tiago Oliveira](https://github.com/tfaoliveira)
 * [Markku-Juhani Saarinen](https://github.com/mjosaarinen)
-* [Pravek Sharma](https://github.com/praveksharma)
+* [Basil Hess](https://github.com/bhess)
 
 
 Anyone is welcome to contribute to the work of the TSC through meetings, issues & other activities.
