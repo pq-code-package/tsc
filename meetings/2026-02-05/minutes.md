@@ -1,9 +1,8 @@
-# 2026-01-08: TSC Minutes
+# 2026-02-05: TSC Minutes
 
 ## Agenda
 
 * Welcome
-* Approval of minutes from previous meeting: [2025-12-04](https://github.com/pq-code-package/tsc/pull/192)
 * Updates from related communities (PQCA, OQS)
 * Review status of sub projects
   * [mlkem-native](https://github.com/pq-code-package/mlkem-native)
@@ -12,11 +11,11 @@
   * [rust-libcrux](https://github.com/pq-code-package/rust-libcrux)
   * [slhdsa-c](https://github.com/pq-code-package/slhdsa-c)
 * Discussion items
-  * TSC membership: Pravek Sharma
-    - Pravek left OQS team/UWaterloo
-    - Last PQCP TSC meeting attendance: 2025-07-03
-    - I asked him to step down from the PQCP TSC on 2025-11-07 - no response
-    - Vote to remove him from the TSC
+  * TSC membership: Pravek Sharma -> Basil Hess
+    - https://github.com/pq-code-package/tsc/issues/196
+  * PQCA Mentorship Program
+    - https://github.com/pq-code-package/tsc/issues/197
+    - Call for Mentors: February 2 - March 13
   * [PQCP Growth Plan](https://github.com/pq-code-package/tsc/issues/188) - Status update
     - [X] mlkem-native
     - [X] mldsa-native
@@ -33,7 +32,7 @@
     - [Determine any cross-implementation API requirements](https://github.com/pq-code-package/tsc/issues/4)
     - [Adopt a definition of assurance levels](https://github.com/pq-code-package/tsc/issues/3)
 * Any other business
-* Next meeting: 2026-01-08 13:00 UTC 
+* Next meeting: 2026-03-05 13:00 UTC 
 
 ## Attendees
 TSC members:
@@ -48,7 +47,8 @@ TSC members:
 
 ## Minutes
 
-Meeting has been cancelled due to lack of people that plan to attend, see https://github.com/pq-code-package/tsc/pull/195.
+Meeting has been cancelled due to lack of quorum, see https://github.com/pq-code-package/tsc/pull/199.
 
 
-**Next meeting: 2026-02-05 13:00 UTC**
+**Next meeting: 2026-03-19 13:00 UTC**
+
