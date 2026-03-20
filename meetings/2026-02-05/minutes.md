@@ -47,3 +47,8 @@ TSC members:
 
 ## Minutes
 
+Meeting has been cancelled due to lack of quorum, see https://github.com/pq-code-package/tsc/pull/199.
+
+
+**Next meeting: 2026-03-19 13:00 UTC**
+
