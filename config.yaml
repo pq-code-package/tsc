@@ -112,6 +112,7 @@ teams:
       - f15hr
       - manastasova
       - jricardini
+      - flynd
   - name: pqcp-mldsa-native-admin
     maintainers:
       - mkannwischer
@@ -135,6 +136,7 @@ teams:
       - L-series
       - f15hr
       - jricardini
+      - flynd
   - name: pqcp-slhdsa-c-admin
     maintainers:
       - mkannwischer
