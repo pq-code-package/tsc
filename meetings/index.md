@@ -1,4 +1,5 @@
 # Minutes and agenda
+* 2026-04-02 : [agenda/minutes](2026-04-02/minutes.md)
 * 2026-03-19 : [agenda/minutes](2026-03-19/minutes.md)
 * 2026-02-05 : [agenda/minutes](2026-02-05/minutes.md)
 * 2026-01-08 : [agenda/minutes](2026-01-08/minutes.md)
