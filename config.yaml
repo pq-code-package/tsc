@@ -113,6 +113,7 @@ teams:
       - manastasova
       - jricardini
       - flynd
+      - Rixxc
   - name: pqcp-mldsa-native-admin
     maintainers:
       - mkannwischer
@@ -137,6 +138,7 @@ teams:
       - f15hr
       - jricardini
       - flynd
+      - Rixxc
   - name: pqcp-slhdsa-c-admin
     maintainers:
       - mkannwischer
