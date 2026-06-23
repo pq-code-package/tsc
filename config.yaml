@@ -114,6 +114,8 @@ teams:
       - jricardini
       - flynd
       - Rixxc
+      - fegge
+      - tob-joe
   - name: pqcp-mldsa-native-admin
     maintainers:
       - mkannwischer
@@ -139,6 +141,8 @@ teams:
       - jricardini
       - flynd
       - Rixxc
+      - fegge
+      - tob-joe
   - name: pqcp-slhdsa-c-admin
     maintainers:
       - mkannwischer
