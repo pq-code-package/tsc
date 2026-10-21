@@ -100,22 +100,13 @@ teams:
       - mkannwischer
       - hanno-becker
     members:
-      - cothan
-      - potsrevennil
       - rod-chapman
-      - jargh
-      - dkostic
       - willieyz
-      - mjosaarinen
       - bremoran
       - L-series
-      - f15hr
       - manastasova
       - jricardini
-      - flynd
-      - Rixxc
-      - fegge
-      - tob-joe
+      - soumya2094
   - name: pqcp-mldsa-native-admin
     maintainers:
       - mkannwischer
@@ -127,22 +118,14 @@ teams:
       - mkannwischer
       - hanno-becker
     members:
-      - potsrevennil
       - rod-chapman
-      - jargh
-      - dkostic
       - manastasova
       - willieyz
-      - mjosaarinen
       - jammychiou1
       - bremoran
       - L-series
-      - f15hr
       - jricardini
-      - flynd
-      - Rixxc
-      - fegge
-      - tob-joe
+      - soumya2094
   - name: pqcp-slhdsa-c-admin
     maintainers:
       - mkannwischer
